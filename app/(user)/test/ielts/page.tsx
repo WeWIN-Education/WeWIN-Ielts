@@ -217,7 +217,7 @@ export default function IELTSPage() {
           </motion.h1>
           <p className="text-gray-600">
             Cảm ơn bạn <b>{userInfo.fullName}</b> đã hoàn thành bài thi thử của
-            WeWIN HTO.
+            WeWIN IELTS.
           </p>
         </div>
       </>
@@ -252,14 +252,14 @@ export default function IELTSPage() {
               className="flex justify-center mb-6"
             >
               <img
-                src="/HTO-WeWIN.png"
+                src="/logo.png"
                 alt="WeWIN Logo"
                 className="w-52 drop-shadow-md"
               />
             </motion.div>
 
             <h1 className="text-3xl md:text-4xl font-extrabold text-[#0E4BA9] mb-3 text-center">
-              IELTS Test — <span className="text-[#007BCE]">WeWIN HTO</span>
+              IELTS Test — <span className="text-[#007BCE]">WeWIN IELTS</span>
             </h1>
 
             {/* FORM INPUT */}

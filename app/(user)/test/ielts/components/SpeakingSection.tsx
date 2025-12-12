@@ -72,8 +72,8 @@ export default function SpeakingSection({
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const loadedRef = useRef(false);
 
-  const DRIVE_FOLDER_ID = "1UkpgUNL9JAIQgT8Ph_fiKJZWDOztI0ai";
-  const SHEET_ID = "1Jh_KKBMmUzE7cltx6ZdGeeJIvm2q6PbDlgn_INKNQAY";
+  const DRIVE_FOLDER_ID = "1yJm4BCyEEF-kAEUFYGPFCrwIV8huTZw7";
+  const SHEET_ID = "1wt6tZMFyhbe5-jk-rU4oGaNCCnoIp9ZICi-DsXE4aJA";
 
   const chunksRef = useRef<BlobPart[]>([]);
 

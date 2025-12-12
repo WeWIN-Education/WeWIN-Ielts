@@ -20,7 +20,7 @@ export default function LoginPage() {
     return (
       <div className="flex flex-col items-center justify-center min-h-[calc(90vh-80px)]  bg-linear-to-b from-[#EAF4FF] to-[#F9FAFB] font-[Lexend]">
         <motion.img
-          src="/HTO-WeWIN.png"
+          src="/logo.png"
           alt="WeWIN Logo"
           className="w-28 mb-6 drop-shadow-lg"
           animate={{ rotate: 360 }}
@@ -43,7 +43,7 @@ export default function LoginPage() {
         className="bg-white px-16 py-14 rounded-[40px] shadow-2xl text-center w-[70vh] border-t-4 border-[#0E4BA9]"
       >
         <motion.img
-          src="/HTO-WeWIN.png"
+          src="/logo.png"
           alt="WeWIN Logo"
           className="mx-auto mb-8 w-40 drop-shadow-lg"
           initial={{ opacity: 0, scale: 0.85 }}
@@ -51,7 +51,7 @@ export default function LoginPage() {
           transition={{ delay: 0.3 }}
         />
         <h1 className="text-3xl font-bold text-[#0E4BA9] mb-2">
-          Welcome to <span className="text-[#00A6FB]">WeWIN HTO</span>
+          Welcome to <span className="text-[#00A6FB]">WeWIN IELTS</span>
         </h1>
         <p className="text-gray-600 mb-10 text-base leading-relaxed">
           Vui lòng đăng nhập bằng tài khoản Google để tiếp tục sử dụng dịch vụ.

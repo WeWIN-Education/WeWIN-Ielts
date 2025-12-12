@@ -145,7 +145,7 @@ export function buildIELTSEmailHTML(params: EmailTemplateParams): string {
                 KẾT QUẢ KIỂM TRA NĂNG LỰC TIẾNG ANH
               </div>
               <div style="font-size:13px;color:#E4C28E;margin-top:4px;">
-                Hệ thống HTO_IELTS Placement Test
+                Hệ thống WeWIN_IELTS Placement Test
               </div>
             </td>
           </tr>

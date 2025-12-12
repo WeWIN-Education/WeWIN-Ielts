@@ -44,7 +44,7 @@ export async function sendEmailWithPDF({
 
   // Construct the full email
   const email = [
-    `From: "WeWIN HTO" <me@gmail.com>`,
+    `From: "WeWIN IELTS" <me@gmail.com>`,
     `To: ${to}`,
     `Subject: ${encodedSubject}`,
     `Content-Type: multipart/mixed; boundary="${boundary}"`,

@@ -16,7 +16,7 @@ export const runtime = "nodejs";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 export const FINAL_SHEET_NAME = "Final_list";
-const DRIVE_FOLDER_ID = "1uof17QRbGl1VyZXnIuALL5OIm409ewuS";
+const DRIVE_FOLDER_ID = "1DVnoOgCCqYv1lIT_1I10p9GPXNFYENS4";
 
 /* ----------------------------------------------------- */
 interface SpeakingReportRequest {
@@ -561,7 +561,7 @@ async function createPdfBuffer({
     color: BORDER_LIGHT,
   });
 
-  page.drawText("WeWIN HTO IELTS Analyzer", {
+  page.drawText("WeWIN IELTS Analyzer", {
     x: LEFT_MARGIN,
     y: 38,
     size: 8,

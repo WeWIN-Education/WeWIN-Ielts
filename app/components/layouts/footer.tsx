@@ -27,19 +27,19 @@ export default function Footer() {
               className="
                 relative flex items-center justify-center
                 w-full max-w-[180px] lg:max-w-[200px]
-                h-[80px] lg:h-[80px]
+                h-20 lg:h-20
                 rounded-3xl 
                 overflow-hidden backdrop-blur-sm
                 shadow-[0_6px_20px_rgba(0,0,0,0.25),0_0_0_1px_rgba(255,255,255,0.15)]
               "
             >
               {/* Gradient nền */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[#0E4BA9] via-[#007BCE] to-[#00A6FB] opacity-90" />
+              <div className="absolute inset-0 bg-linear-to-br from-[#0E4BA9] via-[#007BCE] to-[#00A6FB] opacity-90" />
 
               {/* LOGO */}
               <motion.img
                 whileHover={{ scale: 1.05 }}
-                src="/HTO-WeWIN.png"
+                src="/logo.png"
                 alt="WeWIN Logo"
                 className="
                   relative z-10
@@ -77,7 +77,7 @@ export default function Footer() {
         {/* --- Copyright --- */}
         <p className="text-center text-xs lg:text-sm opacity-80">
           © {new Date().getFullYear()}{" "}
-          <span className="font-semibold text-[#E4C28E]">WeWIN HTO</span>. All
+          <span className="font-semibold text-[#E4C28E]">WeWIN IELTS</span>. All
           rights reserved.
         </p>
       </div>

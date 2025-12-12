@@ -46,7 +46,7 @@ export default function Navbar() {
                        backdrop-blur-md shadow-md"
           >
             <div
-              className="max-w-8xl mx-auto flex items-center justify-between 
+              className="max-w-8xl h-25 mx-auto flex items-center justify-between 
                             px-4 sm:px-6 md:px-8 lg:px-10 gap-3"
             >
               {/* 🔹 Logo */}
@@ -69,7 +69,7 @@ export default function Navbar() {
                   )}
 
                   {/* Menu 2: Resources (cùng cấp) */}
-                  {!isAdmin && (
+                  {/* {!isAdmin && (
                     <NavButton
                       title="Resources"
                       icon={
@@ -89,7 +89,7 @@ export default function Navbar() {
                       }
                       href={Routes.RESOURCES_LISTS}
                     />
-                  )}
+                  )} */}
                 </div>
               }
 
@@ -138,16 +138,16 @@ function Logo() {
 
         {/* 🔹 Logo chính (đã fix lỗi className) */}
         <Image
-          src="/HTO-WeWIN.png"
+          src="/logo.png"
           alt="WeWIN Logo"
-          width={135}   // <-- to hơn nhưng không phá layout
-          height={40}
+          width={200}   // <-- to hơn nhưng không phá layout
+          height={120}
           className="relative shadow-lg transition-all duration-300 group-hover:scale-105"
         />
       </div>
 
-      <span className="text-xl font-bold tracking-wide text-[#E4C28E] hidden sm:block drop-shadow-lg">
-        WeWIN HTO
+      <span className="text-2xl font-bold tracking-wide text-[#E4C28E] hidden sm:block drop-shadow-lg">
+        WeWIN IELTS
       </span>
     </Link>
   );
@@ -273,7 +273,7 @@ function MobileMenu({ menuOpen, setMenuOpen, session, isAdmin }: any) {
                             border border-white/30 text-center"
             >
               <span className="text-xl font-bold text-[#E4C28E]">
-                WeWIN HTO
+                WeWIN IELTS
               </span>
             </div>
           </Link>
@@ -289,7 +289,7 @@ function MobileMenu({ menuOpen, setMenuOpen, session, isAdmin }: any) {
             />
           )}
 
-          {!isAdmin && (
+          {/* {!isAdmin && (
             <Section
               title="Resources"
               items={[
@@ -301,7 +301,7 @@ function MobileMenu({ menuOpen, setMenuOpen, session, isAdmin }: any) {
               ]}
               setMenuOpen={setMenuOpen}
             />
-          )}
+          )} */}
 
           {session && isAdmin && (
             <Section
